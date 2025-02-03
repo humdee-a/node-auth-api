@@ -1,0 +1,11 @@
+--ทำการ Create database
+node_auth_api
+
+--Install Library
+$npm i
+
+--ทำการ initial prisma ใน project nuxt
+$npx prisma init
+
+--ทำการ migrate database
+$npx prisma migrate dev --name init
